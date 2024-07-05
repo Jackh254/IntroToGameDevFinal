@@ -545,6 +545,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3991887972883633335, guid: 7787f165ea8716942b8852e5e54b8686, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4bdb7f03ba01d5740b64530710539984, type: 2}
     - target: {fileID: 4219700032142927642, guid: 7787f165ea8716942b8852e5e54b8686, type: 3}
       propertyPath: m_Name
       value: Player
@@ -605,6 +609,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4219700032142927642, guid: 7787f165ea8716942b8852e5e54b8686, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7357282917840950905}
+    - targetCorrespondingSourceObject: {fileID: 4219700032142927642, guid: 7787f165ea8716942b8852e5e54b8686, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357282917840950910}
   m_SourcePrefab: {fileID: 100100000, guid: 7787f165ea8716942b8852e5e54b8686, type: 3}
 --- !u!1 &7357282917840950901 stripped
 GameObject:
@@ -687,6 +694,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &7357282917840950910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357282917840950901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5571a7823125e44a726fa070880409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

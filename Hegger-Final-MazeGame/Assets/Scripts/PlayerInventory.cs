@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class PlayerInventory : MonoBehaviour
 {
+
     public int NumOfCoinsCollected { get; private set; }
 
     public UnityEvent<PlayerInventory> OnCoinCollected;

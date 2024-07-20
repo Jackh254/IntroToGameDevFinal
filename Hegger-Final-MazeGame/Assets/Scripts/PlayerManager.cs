@@ -28,8 +28,8 @@ private void Awake()
         playerLocomotion.HandleAllMovement();
     }
 
-    private void LateUpdate()
-    {
-        cameraManager.FollowTarget();
-    }
+    //private void LateUpdate()
+    //{
+    //    cameraManager.FollowTarget();
+    //}
 }
